@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- la etuiqueta META no requiere etiqueta de cierra -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+        atributo alt genera un texto alternativo
+        para la imágen (no visible).
+    -->
+
+    <!-- 
+        en src la ruta relativa es en base al archivo html.
+        el '.' se refiere a la ubicación actual.
+        (si se mueve el proyecto entre distintos servidores/dominios
+        no es necesario modificar el código)
+        
+        La ruta absoluta seria: http://127.0.0.1:5500/assets/logo.svg 
+        (no es recomendable usarlas si es servidor local)
+    -->
+    <img src="./assets/logo.svg" alt="Logotipo BCI" />
+    <!--
+        las etiquetas de título van del H1 al H6
+    -->
+    <h1>Banco BCI</h1>
+
+    <ul>
+        <li>
+            <a href="#">
+                Cuentas Corrientes
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                Tarjetas
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                Inversiones
+            </a>
+        </li>
+    </ul>
+
+    <h2>Conoce más beneficios...</h2>
+
+    <h3>Seguros</h3>
+    <p>Lorem ipsum</p>
+
+    <h3>Créditos</h3>
+    <p>Lorem ipsum</p>
+
+    <h3>Créditos</h3>
+    <p>Lorem ipsum</p>
+
+</body>
+</html>
